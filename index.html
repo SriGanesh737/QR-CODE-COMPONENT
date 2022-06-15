@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://fonts.google.com/specimen/Outfit"> -->
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution{
+      
+      background-color: hsl(0, 0%, 100%);
+      display: flex;
+      flex-direction: column;
+       align-items: center;
+       align-content: center;
+       margin-top: 200px;
+       border-radius: 5%;
+       width: 280px;
+      height: 440px;
+    }
+
+    /* testing is done */
+  .image
+  {
+    border-radius: 5%;
+    margin-top: 12px;
+    /* padding-top: 10px; */
+  }
+
+  body{
+    display: flex;
+      flex-direction: column;
+       align-items: center;
+       align-content: center;
+       margin: auto;
+    background-color: hsl(212, 45%, 89%);
+  }
+
+  .parent
+  {
+    display: flex;
+      flex-direction: column;
+       align-items: center;
+       align-content: center;
+  }
+  .paras
+  {
+    display: flex;
+      flex-direction: column;
+       align-items: center;
+       align-content: center;
+       margin: 0px 5px 0px 5px;
+       padding: 15px; 
+       padding-top: 2px;   
+  }
+
+  .p1{
+    font-size: 20px;
+    font-weight: 750;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
+  }
+  .p2{
+    margin-top: -5px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+  }
+  </style>
+</head>
+
+  <body>
+    <div class="attribution">
+        
+      <div class="parent">
+        <div class="img">
+          <img class="image" src="/images/image-qr-code.png" width="250" height="250" alt="QRCODE">
+        </div>
+        <div class="paras">
+          <p class="p1">
+            Improve your front-end skills by building projects
+          </p>
+         <p class="p2">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+         </p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
